@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #e0f7f7;
+}
+
+header {
+  background-color: #26a69a;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.logo {
+  background: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.nav-button {
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.search-icon {
+  background: white;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+.card {
+  background: #ccc;
+  width: 120px;
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px gray;
+}
+
+.main-card {
+  background: #ccc;
+  width: 200px;
+  height: 300px;
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px gray;
+}
+
+.colecoes {
+  margin-bottom: 20px;
+}
+
+.colecoes button {
+  margin: 5px;
+  padding: 10px 20px;
+  background-color: #80deea;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.cartas {
+  display: grid;
+  grid-template-columns: repeat(6, 120px);
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.cartas .card {
+  background: #ccc;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
